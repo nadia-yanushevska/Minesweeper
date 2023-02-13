@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Minesweeper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@color/beige_dark</item>
+        <item name="android:textColor">@color/blue_medium</item>
+        <item name="android:fontFamily">serif</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/beige_medium</item>
+        <item name="colorPrimaryVariant">@color/beige_darker</item>
+        <item name="colorOnPrimary">@color/blue_medium</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_medium</item>
+        <item name="colorOnSecondary">@color/blue_dark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Application splash screen theme. -->
+    <style name="splashScreenTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Title of Main activity: -->
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="520dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/main_text"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Buttons of Main activity: -->
+    <Button
+        android:id="@+id/mainPlayBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif"
+        android:onClick="OnPlayBtnClick"
+        android:singleLine="true"
+        android:text="@string/main_pl_btn"
+        android:textSize="18sp"
+        app:cornerRadius="25dp"
+        app:iconTintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText"
+        app:rippleColor="#FA8080"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/mainInstBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:onClick="OnStatBtnClick"
+        android:singleLine="true"
+        android:text="@string/main_st_btn"
+        android:textSize="18sp"
+        app:cornerRadius="25dp"
+        app:iconTintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainPlayBtn"
+        app:rippleColor="#FA8080"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/mainStatBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:onClick="OnInstBtnClick"
+        android:text="@string/main_in_btn"
+        android:textSize="18sp"
+        app:cornerRadius="25dp"
+        app:iconTintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainInstBtn"
+        app:rippleColor="#FA8080"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/mainSettBtn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:onClick="OnSettBtnClick"
+        android:text="@string/main_se_btn"
+        android:textSize="18sp"
+        app:cornerRadius="25dp"
+        app:iconTintMode="src_atop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainStatBtn"
+        app:rippleColor="#FA8080"
+        tools:ignore="UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

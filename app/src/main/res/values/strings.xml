@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+
+    <!-- Main Activity strings and string titles for Instructions, Statistics and Settings activities: -->
+    <string name="main_text">Welcome to Minesweeper</string>
+    <string name="main_pl_btn">Play</string>
+    <string name="main_in_btn">Instructions</string>
+    <string name="main_st_btn">Statistics</string>
+    <string name="main_se_btn">Settings</string>
+
+    <!-- Back button text used by Levels, Instructions and Statistics activities: -->
+    <string name="back_btn">Back</string>
+
+    <!-- Levels Activity strings -->
+    <string name="le_text">Choose a level</string>
+    <string name="le_easy">Easy     9 x 9</string>
+    <string name="le_medium">Medium     12 x 12</string>
+    <string name="le_hard">Hard     16 x 16</string>
+
+    <!-- Play Activity strings -->
+    <string name="play_timer">Time  :</string>
+    <string name="play_time">|  0:00  |</string>
+    <string name="play_bombs">Bombs left  :</string>
+    <string name="play_bombsCount">|   out of   |</string>
+    <string name="re_btn">Restart</string>
+
+    <!-- Statistics Activity strings -->
+    <string name="statistics_list">No Statistics Available.</string>
+
+    <!-- Settings Activity strings -->
+    <string name="se_muted">Mute</string>
+    <string name="se_night">Night Theme</string>
+    <string name="se_ap_btn">Apply</string>
+    <string name="se_ca_btn">Cancel</string>
+</resources>

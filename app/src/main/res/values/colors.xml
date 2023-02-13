@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Beige colors used by Minesweeper -->
+    <color name="beige_darker">#FDC266</color>
+    <color name="beige_dark">#FFD088</color>
+    <color name="beige_medium">#FFE5BF</color>
+    <color name="beige_light">#FFECD0</color>
+
+    <!-- Blue colors used by Minesweeper -->
+    <color name="blue_darker">#03285E</color>
+    <color name="blue_dark">#053E91</color>
+    <color name="blue_medium">#206FE3</color>
+    <color name="blue_light">#8CBBFF</color>
+</resources>

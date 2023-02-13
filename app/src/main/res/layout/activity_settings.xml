@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Activities.SettingsActivity">
+
+    <!-- Title of Settings activity: -->
+    <TextView
+        android:id="@+id/settText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/main_se_btn"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- Switches for dark/light themes and mute/unmute sound of Settings activity: -->
+    <Switch
+        android:id="@+id/settNightSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/beige_medium"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/se_night"
+        android:textColor="@color/blue_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/settMuteSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/beige_medium"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/se_muted"
+        android:textColor="@color/blue_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <!-- LinearLayout holding apply and cancel buttons of Settings activity: -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/applyBtn"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:onClick="OnApplyBtnClick"
+            android:singleLine="true"
+            android:text="@string/se_ap_btn"
+            android:textSize="18sp"
+            app:cornerRadius="25dp"
+            app:iconTintMode="src_atop"
+            app:rippleColor="#FB8931"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:onClick="OnCancelBtnClick"
+            android:singleLine="true"
+            android:text="@string/se_ca_btn"
+            android:textSize="18sp"
+            app:cornerRadius="25dp"
+            app:iconTintMode="src_atop"
+            app:rippleColor="#FB8931"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+    </LinearLayout>
+
+</LinearLayout>
